@@ -31,6 +31,7 @@ merge_dataset_test <- rbind(train_combined_df, test_combined_df)
 
 ## identify columns with mean & standard deviation values
 chararr <- colnames(merge_dataset_test)
+chararr <- gsub("meanFreq","MeanFreq",chararr)
 meanindex <- grep("mean",chararr)
 stdindex <- grep("std",chararr)
 combindex <- sort(c(1:2,meanindex,stdindex))

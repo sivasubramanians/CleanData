@@ -1,3 +1,6 @@
+## R script to merge two datasets - test & train and transform the data and create a 
+## a new tidy dataset with average of each variable for each activity and each subject.
+
 ## reading test dataset
 test_x_df <- read.table("UCI HAR Dataset/test/X_test.txt", sep = "")
 test_y_df <- read.table("UCI HAR Dataset/test/y_test.txt")
@@ -34,9 +37,9 @@ combindex <- sort(c(1:2,meanindex,stdindex))
 
 ## create a filtered dataset with only mean & std variables along with subject & activity values
 filtered_df <- merge_dataset_test[,combindex]
-activity_values <- read.table("UCI HAR Dataset/activity_labels.txt")
 
 ## convert the activity in the list to descriptive activity names
+activity_values <- read.table("UCI HAR Dataset/activity_labels.txt")
 nrows <- nrow(activity_values)
 for (rin in 1:nrows)
 {

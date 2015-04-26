@@ -1,5 +1,7 @@
 ## Description of the new tidy dataset 
 
+The list of variables in the dataset are provided below in the same order as it appears in the dataset.
+
 1. activity - variable denoting the description of the activities performed by the subject for experiment
 values are: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
@@ -65,100 +67,75 @@ values are: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LA
 
 31. ave.time.BodyGyroJerk.std.Z - average of time dimension of body angular velocity jerk- standard deviation measured in Y axis
 
-32. ave.time.BodyAccMag.mean
+32. ave.time.BodyAccMag.mean - average of time dimension of body acceleration magnitude - mean
 
-33. ave.time.BodyAccMag.std
+33. ave.time.BodyAccMag.std -  average of time dimension of body acceleration magnitude - standard deviation
 
-34. ave.time.GravityAccMag.mean
+34. ave.time.GravityAccMag.mean - average of time dimension of gravity acceleration magnitude - mean
 
-35. ave.time.GravityAccMag.std
+35. ave.time.GravityAccMag.std - average of time dimension of gravity acceleration magnitude - standard deviation
 
-36. ave.time.BodyAccJerkMag.mean
+36. ave.time.BodyAccJerkMag.mean - average of time dimension of body acceleration jerk magnitude - mean
 
-37. ave.time.BodyAccJerkMag.std
+37. ave.time.BodyAccJerkMag.std - average of time dimension of body acceleration jerk magnitude - standard deviation
 
-38. ave.time.BodyGyroMag.mean
+38. ave.time.BodyGyroMag.mean - average of time dimension of body angular velocity magnitude - mean
 
-39. ave.time.BodyGyroMag.std
+39. ave.time.BodyGyroMag.std - average of time dimension of body angular velocity magnitude - standard deviation
 
-40. ave.time.BodyGyroJerkMag.mean
+40. ave.time.BodyGyroJerkMag.mean - average of time dimension of body angular velocity jerk magnitude - mean
 
-41. ave.time.BodyGyroJerkMag.std
+41. ave.time.BodyGyroJerkMag.std - average of time dimension of body angular velocity jerk magnitude - standard deviation
 
-42. ave.freq.BodyAcc.mean.X
+42. ave.freq.BodyAcc.mean.X - average of frequency dimension of Body acceleration Mean measured in X axis
 
-43. ave.freq.BodyAcc.mean.Y
+43. ave.freq.BodyAcc.mean.Y - average of frequency dimension of Body acceleration Mean measured in Y axis
 
-44. ave.freq.BodyAcc.mean.Z
+44. ave.freq.BodyAcc.mean.Z - average of frequency dimension of Body acceleration Mean measured in Z axis
 
-45. ave.freq.BodyAcc.std.X
+45. ave.freq.BodyAcc.std.X - average of frequency dimension of Body acceleration standard deviation measured in X axis
 
-46. ave.freq.BodyAcc.std.Y
+46. ave.freq.BodyAcc.std.Y - average of frequency dimension of Body acceleration standard deviation measured in Y axis
 
-47. ave.freq.BodyAcc.std.Z
+47. ave.freq.BodyAcc.std.Z - average of frequency dimension of Body acceleration standard deviation measured in Z axis
 
-48. ave.freq.BodyAcc.meanFreq.X
+48. ave.freq.BodyAccJerk.mean.X - average of frequency dimension of body linear acceleration jerk- mean measured in X axis
 
-49. ave.freq.BodyAcc.meanFreq.Y
+49. ave.freq.BodyAccJerk.mean.Y - average of frequency dimension of body linear acceleration jerk- mean measured in Y axis
 
-50. ave.freq.BodyAcc.meanFreq.Z
+50. ave.freq.BodyAccJerk.mean.Z - average of frequency dimension of body linear acceleration jerk- mean measured in Z axis
 
-51. ave.freq.BodyAccJerk.mean.X
+51. ave.freq.BodyAccJerk.std.X - average of frequency dimension of body linear acceleration jerk- standard deviation measured in X axis
 
-52. ave.freq.BodyAccJerk.mean.Y
+52. ave.freq.BodyAccJerk.std.Y - average of frequency dimension of body linear acceleration jerk- standard deviation measured in Y axis
 
-53. ave.freq.BodyAccJerk.mean.Z
+53. ave.freq.BodyAccJerk.std.Z - average of frequency dimension of body linear acceleration jerk- standard deviation measured in Z axis
 
-54. ave.freq.BodyAccJerk.std.X
+54. ave.freq.BodyGyro.mean.X - average of frequency dimension of body angular velocity- mean measured in X axis
 
-55. ave.freq.BodyAccJerk.std.Y
+55. ave.freq.BodyGyro.mean.Y - average of frequency dimension of body angular velocity- mean measured in Y axis
 
-56. ave.freq.BodyAccJerk.std.Z
+56. ave.freq.BodyGyro.mean.Z - average of frequency dimension of body angular velocity- mean measured in Z axis
 
-57. ave.freq.BodyAccJerk.meanFreq.X
+57. ave.freq.BodyGyro.std.X - average of frequency dimension of body angular velocity- standard deviation measured in X axis
 
-58. ave.freq.BodyAccJerk.meanFreq.Y
+58. ave.freq.BodyGyro.std.Y - average of frequency dimension of body angular velocity- standard deviation measured in Y axis
 
-59. ave.freq.BodyAccJerk.meanFreq.Z
+59. ave.freq.BodyGyro.std.Z - average of frequency dimension of body angular velocity- standard deviation measured in Z axis
 
-60. ave.freq.BodyGyro.mean.X
+60. ave.freq.BodyAccMag.mean - average of frequency dimension of body acceleration magnitude - mean
 
-61. ave.freq.BodyGyro.mean.Y
+61. ave.freq.BodyAccMag.std - average of frequency dimension of body acceleration magnitude - standard deviation
 
-62. ave.freq.BodyGyro.mean.Z
+62. ave.freq.BodyBodyAccJerkMag.mean - average of frequency dimension of body acceleration jerk magnitude - mean
 
-63. ave.freq.BodyGyro.std.X
+63. ave.freq.BodyBodyAccJerkMag.std - average of frequency dimension of body acceleration jerk magnitude - standard deviation
 
-64. ave.freq.BodyGyro.std.Y
+64. ave.freq.BodyBodyGyroMag.mean - average of frequency dimension of body angular velocity magnitude - mean
 
-65. ave.freq.BodyGyro.std.Z
+65. ave.freq.BodyBodyGyroMag.std - average of frequency dimension of body angular velocity magnitude - standard deviation
 
-66. ave.freq.BodyGyro.meanFreq.X
+66. ave.freq.BodyBodyGyroJerkMag.mean - average of frequency dimension of body angular velocity jerk magnitude - mean
 
-67. ave.freq.BodyGyro.meanFreq.Y
+67. ave.freq.BodyBodyGyroJerkMag.std - average of frequency dimension of body angular velocity jerk magnitude - standard deviation
 
-68. ave.freq.BodyGyro.meanFreq.Z
-
-69. ave.freq.BodyAccMag.mean
-
-70. ave.freq.BodyAccMag.std
-
-71. ave.freq.BodyAccMag.meanFreq
-
-72. ave.freq.BodyBodyAccJerkMag.mean
-
-73. ave.freq.BodyBodyAccJerkMag.std
-
-74. ave.freq.BodyBodyAccJerkMag.meanFreq
-
-75. ave.freq.BodyBodyGyroMag.mean
-
-76. ave.freq.BodyBodyGyroMag.std
-
-77. ave.freq.BodyBodyGyroMag.meanFreq
-
-78. ave.freq.BodyBodyGyroJerkMag.mean
-
-79. ave.freq.BodyBodyGyroJerkMag.std
-
-80. ave.freq.BodyBodyGyroJerkMag.meanFreq
